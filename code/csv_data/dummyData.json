@@ -1,0 +1,214 @@
+{
+  "course_announcements": [
+    {
+      "id": 1,
+      "course": 1,
+      "teacher": 1,
+      "title": "Selamat Datang di Kursus Python Fundamental",
+      "content": "Selamat datang di kursus Python Fundamental! Kursus ini akan membantu Anda memahami dasar-dasar pemrograman Python. Pastikan untuk mengikuti semua materi secara berurutan dan jangan ragu untuk bertanya di forum diskusi.",
+      "publish_date": "2024-06-01T08:00:00Z",
+      "is_active": true,
+      "created_at": "2024-06-01T08:00:00Z",
+      "updated_at": "2024-06-01T08:00:00Z"
+    },
+    {
+      "id": 2,
+      "course": 1,
+      "teacher": 1,
+      "title": "Tugas Minggu Pertama",
+      "content": "Silakan kerjakan latihan-latihan di modul 1. Deadline pengumpulan adalah hari Jumat pukul 23:59. Upload file Python (.py) Anda ke sistem.",
+      "publish_date": "2024-06-03T10:30:00Z",
+      "is_active": true,
+      "created_at": "2024-06-03T10:30:00Z",
+      "updated_at": "2024-06-03T10:30:00Z"
+    },
+    {
+      "id": 3,
+      "course": 2,
+      "teacher": 2,
+      "title": "Ujian Tengah Semester",
+      "content": "Ujian tengah semester akan dilaksanakan pada tanggal 15 Juni 2024. Materi yang diujikan meliputi semua topik dari minggu 1-7. Silakan persiapkan diri dengan baik.",
+      "publish_date": "2024-06-05T14:15:00Z",
+      "is_active": true,
+      "created_at": "2024-06-05T14:15:00Z",
+      "updated_at": "2024-06-05T14:15:00Z"
+    }
+  ],
+  
+  "content_completions": [
+    {
+      "id": 1,
+      "student": 3,
+      "content": 1,
+      "completed_at": "2024-06-02T09:15:00Z"
+    },
+    {
+      "id": 2,
+      "student": 3,
+      "content": 2,
+      "completed_at": "2024-06-02T11:30:00Z"
+    },
+    {
+      "id": 3,
+      "student": 4,
+      "content": 1,
+      "completed_at": "2024-06-02T14:45:00Z"
+    },
+    {
+      "id": 4,
+      "student": 5,
+      "content": 3,
+      "completed_at": "2024-06-03T16:20:00Z"
+    },
+    {
+      "id": 5,
+      "student": 3,
+      "content": 4,
+      "completed_at": "2024-06-04T08:10:00Z"
+    }
+  ],
+  
+  "course_feedbacks": [
+    {
+      "id": 1,
+      "course": 1,
+      "student": 3,
+      "rating": 5,
+      "feedback_text": "Kursus ini sangat membantu! Materi dijelaskan dengan jelas dan mudah dipahami. Pengajar sangat responsif dalam menjawab pertanyaan.",
+      "created_at": "2024-06-10T13:20:00Z",
+      "updated_at": "2024-06-10T13:20:00Z"
+    },
+    {
+      "id": 2,
+      "course": 1,
+      "student": 4,
+      "rating": 4,
+      "feedback_text": "Konten kursus bagus, namun alangkah baiknya jika ada lebih banyak contoh praktis dan latihan hands-on.",
+      "created_at": "2024-06-11T10:45:00Z",
+      "updated_at": "2024-06-11T10:45:00Z"
+    },
+    {
+      "id": 3,
+      "course": 2,
+      "student": 6,
+      "rating": 5,
+      "feedback_text": "Kursus yang luar biasa! Struktur pembelajaran sangat sistematis dan mudah diikuti. Highly recommended!",
+      "created_at": "2024-06-12T15:30:00Z",
+      "updated_at": "2024-06-12T15:30:00Z"
+    },
+    {
+      "id": 4,
+      "course": 1,
+      "student": 5,
+      "rating": 3,
+      "feedback_text": "Kursus cukup baik, tetapi beberapa video agak panjang. Mungkin bisa dipecah menjadi segmen yang lebih pendek.",
+      "created_at": "2024-06-13T09:15:00Z",
+      "updated_at": "2024-06-13T09:15:00Z"
+    }
+  ],
+  
+  "content_bookmarks": [
+    {
+      "id": 1,
+      "student": 3,
+      "content": 1,
+      "created_at": "2024-06-01T12:30:00Z"
+    },
+    {
+      "id": 2,
+      "student": 3,
+      "content": 5,
+      "created_at": "2024-06-02T08:45:00Z"
+    },
+    {
+      "id": 3,
+      "student": 4,
+      "content": 2,
+      "created_at": "2024-06-02T16:20:00Z"
+    },
+    {
+      "id": 4,
+      "student": 5,
+      "content": 3,
+      "created_at": "2024-06-03T11:10:00Z"
+    },
+    {
+      "id": 5,
+      "student": 6,
+      "content": 7,
+      "created_at": "2024-06-04T14:25:00Z"
+    },
+    {
+      "id": 6,
+      "student": 4,
+      "content": 6,
+      "created_at": "2024-06-05T09:35:00Z"
+    }
+  ],
+  
+  "user_profiles": [
+    {
+      "id": 1,
+      "user": 1,
+      "phone": "+6281234567890",
+      "description": "Seorang pengajar berpengalaman di bidang teknologi informasi dengan fokus pada pengembangan web dan pemrograman Python. Memiliki passion untuk berbagi ilmu dan membantu siswa mencapai potensi terbaik mereka.",
+      "profile_picture": "profiles/teacher1_avatar.jpg",
+      "created_at": "2024-05-15T10:00:00Z",
+      "updated_at": "2024-06-01T14:30:00Z"
+    },
+    {
+      "id": 2,
+      "user": 2,
+      "phone": "+6281987654321",
+      "description": "Pengajar senior dengan spesialisasi dalam database management dan analisis data. Senang mengeksplorasi teknologi terbaru dan menerapkannya dalam pembelajaran yang interaktif.",
+      "profile_picture": "profiles/teacher2_avatar.jpg",
+      "created_at": "2024-05-20T09:15:00Z",
+      "updated_at": "2024-06-02T11:45:00Z"
+    },
+    {
+      "id": 3,
+      "user": 3,
+      "phone": "+6282123456789",
+      "description": "Mahasiswa teknik informatika yang antusias belajar pemrograman. Suka tantangan dan selalu berusaha memberikan yang terbaik dalam setiap tugas.",
+      "profile_picture": "profiles/student1_avatar.jpg",
+      "created_at": "2024-05-25T08:30:00Z",
+      "updated_at": "2024-06-03T16:20:00Z"
+    },
+    {
+      "id": 4,
+      "user": 4,
+      "phone": "+6282987654321",
+      "description": "Sedang mendalami dunia programming dan web development. Tertarik dengan teknologi AI dan machine learning untuk masa depan karir.",
+      "profile_picture": "profiles/student2_avatar.jpg",
+      "created_at": "2024-05-28T13:45:00Z",
+      "updated_at": "2024-06-04T12:10:00Z"
+    },
+    {
+      "id": 5,
+      "user": 5,
+      "phone": "+6283123456789",
+      "description": "Fresh graduate yang ingin meningkatkan skill programming untuk berkarir di industri teknologi. Sangat motivated dan eager to learn.",
+      "profile_picture": null,
+      "created_at": "2024-06-01T07:20:00Z",
+      "updated_at": "2024-06-01T07:20:00Z"
+    },
+    {
+      "id": 6,
+      "user": 6,
+      "phone": null,
+      "description": "Pekerja profesional yang ingin career switch ke bidang IT. Mengambil kursus online untuk upgrade skill dan knowledge.",
+      "profile_picture": "profiles/student4_avatar.jpg",
+      "created_at": "2024-06-02T15:30:00Z",
+      "updated_at": "2024-06-05T10:25:00Z"
+    },
+    {
+      "id": 7,
+      "user": 7,
+      "phone": "+6284567890123",
+      "description": null,
+      "profile_picture": null,
+      "created_at": "2024-06-05T12:00:00Z",
+      "updated_at": "2024-06-05T12:00:00Z"
+    }
+  ]
+}
